@@ -1,0 +1,105 @@
+.backPanier {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(176, 224, 247, 0.8);
+    display: flex;
+    justify-content: center;
+    /* Aligner le contenu en haut */
+    align-items: center;
+    /* Centrer horizontalement */
+    z-index: 10;
+    overflow-y: scroll;
+}
+
+.panier {
+    align-self: baseline;
+    /* Aligner le contenu en haut */
+
+
+    position: relative;
+    background-color: rgba(255, 105, 180, 0.8);
+    text-align: center;
+    width: 60vw;
+    min-height: 80vh;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 2px solid rgb(175, 77, 94);
+}
+
+.panier-details {
+    color: black;
+    font-size: .8em;
+    font-style: italic;
+    border-bottom: 2px black dashed;
+}
+
+.panier h2 {
+    color: black;
+}
+
+.panier img {
+    margin-top: 1.5em;
+}
+.title {
+    font-size: 24px;
+    color: #333;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .title::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #e63946;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .title:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  
+  
+  
+.close {
+    position: absolute;
+    font-weight: 900;
+    font-size: 1.5rem;
+    right: 10px;
+    top: 5px;
+    /* Ajustez cette valeur en fonction de vos besoins */
+}
+
+.close:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.button-menu {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.button-menu:hover {
+    transform: scale(1.05);
+    /* Agrandir légèrement au survol */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    /* Effet de lueur au survol */
+}

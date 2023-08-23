@@ -1,0 +1,101 @@
+.Card {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding-top: 20px;
+    margin-right: 1em;
+    
+}
+.Card h2 {
+  
+  font-size: 1.2em;
+  background: linear-gradient(to right, #ff6b6b, #e63946);
+  background-clip: text; /* Applique le dégradé au texte */
+  -webkit-background-clip: text; /* Pour la compatibilité avec certains navigateurs */
+  color: transparent;
+}
+
+.cardDetails {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  
+}
+.promo {
+  position: absolute;
+  left : 5em;
+  align-self: end;
+  transform: rotate(-30deg);
+  transform-origin: top left;
+  animation: glowAnimation 2s ease-in-out infinite;
+  color: #e63946; /* Set the text color to pink */
+  text-shadow: 0 0 10px rgba(255, 105, 180, 0.8); /* Add a glowing text shadow */
+  cursor: pointer;
+}
+
+@keyframes glowAnimation {
+  0% {
+    box-shadow: 0 0 5px rgba(255, 105, 180, 0.7);
+    text-shadow: 0 0 10px rgba(255, 105, 180, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.9);
+    text-shadow: 0 0 15px rgba(255, 105, 180, 1);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(255, 105, 180, 0.7);
+    text-shadow: 0 0 10px rgba(255, 105, 180, 0.8);
+  }
+}
+
+
+.price {
+  display: inline-block;
+  padding: 8px 16px;
+  color: white;
+  background: linear-gradient(to right, #ff6b6b, #e63946); /* Dégradé de couleurs moderne */
+  border: 2px solid #e63946; /* Bordure solide */
+  border-radius: 10px;
+  font-weight: bold;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.price:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.qte{
+    color: red;
+}
+.Card .Asaisir  {
+  font-size: 0.7em;
+  text-align: center;
+}
+.description{
+    color: rgba(255, 105, 180, 0.8);
+    font-style: italic;
+}
+img{
+ 
+
+  width: 150px; /* Ajustez la largeur selon vos besoins */
+  height: 150px; /* Ajustez la hauteur selon vos besoins */
+  object-fit: cover;
+  transition: box-shadow 0.3s, transform 0.3s ease-in-out; /* Ajoutez une transition en douceur */
+  border-radius: 10px;
+
+}
+
+
+img:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Effet de bordure lumineuse blanche */
+  cursor: pointer;
+  transform: scale(1.05) ; /* Agrandit l'image au survol */
+
+}
+  
+
+ 
+  

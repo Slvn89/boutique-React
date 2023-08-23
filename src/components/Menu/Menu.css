@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Kumbh+Sans:wght@100;400&family=Mulish:ital,wght@0,200;0,600;0,700;1,600&family=Tilt+Neon&display=swap');
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between; /* Ajoute de l'espace entre les éléments */
+    align-items: center;
+ 
+}
+.burger{
+    margin-right: 20px;
+}
+.logo img{
+    width: 100%;
+}
+nav .logo {
+    order: 2; /* Met le logo en dernier */
+  }
+
+
+
+
+
+
+    .menuEntriesMobile {
+        background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+        border: 4px dashed hotpink;
+        width: 100%;
+        font-size: 4vw;
+        flex-direction: column;
+        text-decoration: none;
+        list-style: none;
+        align-items: left;
+        color: black;
+        font-family: 'Amatic SC', cursive;
+        font-family: 'Tilt Neon', cursive;
+        position: relative;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+    }
+    .menuEntriesMobile a{
+        text-decoration: none;
+        color: black;
+        margin: 0px 2em 0px 2em;
+
+    }
+
+
+
+
+@media screen and (min-width: 576px){
+
+    .menuEntriesMobile {
+        
+        display: flex;
+        flex-direction: row;
+        background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+        line-height: 3em;
+       
+        font-family: 'Tilt Neon', cursive;
+        justify-content: space-between;
+        text-align: center;
+        list-style: none;
+        padding: 10px 0px 10px 0px;
+        border: 6px dashed hotpink;
+        color: black;
+    }
+
+    .burger {
+        display: none;
+    }
+
+   
+}
