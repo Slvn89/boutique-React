@@ -10,7 +10,7 @@ Developpement d'une boutique web avec React
  
 ## Badges
 
- [shields.io](https://shields.io/)
+
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
@@ -29,6 +29,7 @@ developpeur en formation
 
 ## Screenshots
 
+[![screenshot2.png](https://i.postimg.cc/XvPjJGHY/screenshot2.png)](https://postimg.cc/CZjTr1p3)
 https://i.postimg.cc/XvPjJGHY/screenshot2.png
 https://postimg.cc/Yjg7hbPr
 https://postimg.cc/CZjTr1p3
