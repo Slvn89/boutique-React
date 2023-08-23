@@ -36,7 +36,7 @@ const Panier = (props) => {
 
                 }>  <span class="icon"><i class="fas fa-times"></i></span> 
                 </div>
-                <h2 className="title">
+                <h2 className="title, animate__animated animate__bounce animate__swing	">
                     Votre panier
                 </h2>
                 <h3>

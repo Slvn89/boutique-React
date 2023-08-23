@@ -10,7 +10,7 @@ const Card = (props) => {
 
       <img src={props.article.url} alt="" />
         {
-          props.article.promo ? <p className={styles.promo}>PROMO</p> : <></>
+          props.article.promo ? <p className={styles.promo} >PROMO</p> : <></>
         }
       <div className={styles.cardDetails}>
 
