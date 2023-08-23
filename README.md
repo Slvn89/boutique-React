@@ -28,11 +28,9 @@ developpeur en formation
 
 
 ## Screenshots
-
+[![screenshot.png](https://i.postimg.cc/gct2t7qZ/screenshot.png)](https://postimg.cc/Yjg7hbPr)
 [![screenshot2.png](https://i.postimg.cc/XvPjJGHY/screenshot2.png)](https://postimg.cc/CZjTr1p3)
-https://i.postimg.cc/XvPjJGHY/screenshot2.png
-https://postimg.cc/Yjg7hbPr
-https://postimg.cc/CZjTr1p3
+
 ## Run Locally
 
 
